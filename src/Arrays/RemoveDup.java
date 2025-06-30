@@ -10,7 +10,7 @@ public class RemoveDup {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = {12, 23, 34, 35, 12, 38, 22, 23};	
+		int[] arr = {12, 23, 34, 35, 12, 34, 78, 56, 78,-1,-2,-1};	
 		int n = arr.length;
 		
 		System.out.println("Array before removing duplicates :");
@@ -39,4 +39,4 @@ public class RemoveDup {
 		System.out.println("Array after removing duplicates :");
 		PrintIntArr(arr);
 	}
-}
+}	
