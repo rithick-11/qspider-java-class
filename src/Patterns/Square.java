@@ -10,10 +10,7 @@ public class Square {
 			for(int j = 0; j<n ; j++) {
 				System.out.print("*");
 			}
-			System.out.println();
-			
-		char s = 65;
-		System.out.println(s);
+			System.out.println();	
 		}
 	}
 }
